@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE UPSIDE DOWN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Images/THE UPSIDE DOWN (2).png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+
+</head>
+<body>
+    <section id = "home">
+        <div class="nav-lights">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 30">
+                <defs>
+                    <g id="light">
+                        <line x1="0" y1="0" x2="0" y2="15" stroke="rgb(35, 35, 35)" stroke-width="2"/>
+                        <circle cx="0" cy="20" r="6" fill="#e61919">
+                            <animate attributeName="opacity" 
+                                     values="1;0.4;1" 
+                                     dur="2s" 
+                                     repeatCount="indefinite"/>
+                            <animate attributeName="fill" 
+                                     values="#e61919;#3498db;#e61919" 
+                                     dur="4s" 
+                                     repeatCount="indefinite"/>
+                        </circle>
+                    </g>
+                </defs>
+                
+                <line x1="0" y1="10" x2="1200" y2="10" stroke="rgb(35, 35, 35)" stroke-width="2"/>
+                
+                <!-- Repeated lights with varying animation delays -->
+                <use href="#light" transform="translate(20, 0)">
+                    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+                </use>
+                <use href="#light" transform="translate(120, 0)">
+                    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" begin="0.2s"/>
+                </use>
+                <use href="#light" transform="translate(220, 0)">
+                    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+                </use>
+                <use href="#light" transform="translate(320, 0)">
+                    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+                </use>
+                <use href="#light" transform="translate(420, 0)">
+                    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+                </use>
+                <use href="#light" transform="translate(520, 0)">
+                    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" begin="1.0s"/>
+                </use>
+                <use href="#light" transform="translate(620, 0)">
+                    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" begin="1.2s"/>
+                </use>
+                <use href="#light" transform="translate(720, 0)">
+                    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" begin="1.4s"/>
+                </use>
+                <use href="#light" transform="translate(820, 0)">
+                    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" begin="1.6s"/>
+                </use>
+                <use href="#light" transform="translate(920, 0)">
+                    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" begin="1.8s"/>
+                </use>
+                <use href="#light" transform="translate(1020, 0)">
+                    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" begin="2.0s"/>
+                </use>
+                <use href="#light" transform="translate(1120, 0)">
+                    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" begin="2.2s"/>
+                </use>
+            </svg>
+        </div>
+        <nav class="navbar">
+            <div class="brand-icon">
+                <a href="index.html"><img src="Images/THE UPSIDE DOWN (2).png" alt="" class="icon-img"></a>
+            </div>
+            <button class="hamburger" aria-label="Toggle navigation">
+                <i class = "fas fa-bars"></i>
+            </button>
+            <div class="nav-elements">
+                <ul class="elements">
+                    <li class="list-element"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="list-element"><a href="#About" class="nav-link">About</a></li>
+                    <li class="list-element"><a href="#Skills" class="nav-link">Skills</a></li>
+                    <li class="list-element"><a href="#Projects" class="nav-link">Projects</a></li>
+                    <li class="list-element"><a href="#Contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    </section>
+
+    <audio src="stranger_things_c418.mp3" autoplay="autoplay" loop="loop"></audio>
+
+    <section id = "hero">
+        <div class = "hero-container">
+            <div class = "rings">
+                <div class = "box1"><div class = "box2"></div><div class = "box3"></div></div>
+                
+            </div>
+            <div class = "hero-name">
+                <h1>VARUN BUDHANI</h1>
+            </div>
+            <div class="hero-work">
+                <h2>DEVELOPER / CREATOR</h2>
+            </div>
+        </div>
+    </section>
+    
+    <section id = "About">
+        
+        <h1>ABOUT</h1>
+        <div class="about-container">
+            <div class="about-img-container">
+                <img class = "about-img" src="Images/Image.jpg" alt="">
+            </div>
+            <div class="about-info-container">
+                <p>I am <span>Varun Budhani</span> the sole creator of the upside down.Discovered this place during my tech Journey and from then onwards I live here only.</p>
+                <p>I am an enthusiastic and dedicated individual with a strong belief in embracing life to its fullest potential. Passionate about tackling challenges and solving problems in a professional and innovative manner.<br>Loves canon events...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id = "Skills">
+        <h1>SKILLS</h1>
+        <div class = "main-skills-container">
+            <div class = "frontend-skills">
+                <h3>Frontend Skills</h3>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                </ul>
+            </div>
+
+            <div class = "backend-skills">
+                <h3>Backend Skills</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>mySQL</li>
+                </ul>
+            </div>
+
+            <div class = "Tools">
+                <h3>Tools</h3>
+                <ul>
+                    <li>Git/Github</li>
+                    <li>Figma</li>
+                    <li>Canva</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="power-levels">
+            
+            <div class="progress-bar-container">
+                <h3>Progress Level</h2>
+                <p>Frontend</p>
+                <div class="progress-bar">
+                    <span class="percentage frontend-bar"></span>
+                </div>
+            </div>
+            <div class="progress-bar-container">
+                <p>Backend</p>
+                <div class="progress-bar">
+                    <span class="percentage backend-bar"></span>
+                </div>
+            </div>
+            <div class="progress-bar-container">
+                <p>Tools</p>
+                <div class="progress-bar">
+                    <span class="percentage Tools-bar"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id = "Contact">
+        <h1>CONTACT</h1>
+        <div class="contact">
+            <div class="contact-left">
+                <h2>Contact Me</h2>
+                <p><i class="fa-solid fa-envelope"></i> varunbudhani@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91-7020965092</p>
+                <div class = "social-icons">
+                    <a class = "insta-icon" href="https://www.instagram.com/varunbudhani_19/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Vab1234" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <!-- <a href=""><i class="fa-brands fa-twitter"></i></a> -->
+                    <a href="https://www.linkedin.com/in/varun-budhani-85754a237/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <button type="submit" class = "cv-download-button"><a href="Varun Budhani_Resume.pdf" download>Download CV</a></button>
+            </div>
+            <div class = "contact-right">
+                <h2>Let's Connect</h2>
+                <form name = "submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" placeholder="Your Message" rows = "6"></textarea>
+                    <button class = "contact-button"type="submit">Submit</button>
+                </form>
+                <span id = "msg"></span>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id = "footer">
+        <div class = "footer">
+            <p>Copyright 2024.Do not Copy</p>
+        </div>
+
+    </section>
+
+    <script>
+
+    const hamburger = document.querySelector('.hamburger');
+    const navElements = document.querySelector('.nav-elements');
+
+    hamburger.addEventListener('click', () => {
+        navElements.classList.toggle('active');
+    });
+
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxzhSujaXBXahLcG7Hj5uQYgK25n1s42wSxN5feXnCLq15iO5ONis-2R7U93YA4g4qlrQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML = "You have entered the gate";
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                } , 5000);
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
